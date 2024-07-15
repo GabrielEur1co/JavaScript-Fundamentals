@@ -1,0 +1,1 @@
+const calcIMC = pesoEmKg / Math.pow(altura, 2);

@@ -1,7 +1,9 @@
 const pesoEmKg = 82.8;
 const altura = 1.80;
 
-const calcIMC = pesoEmKg / (altura ** 2);
+//Math.pow() -> É um metodo para fazer potenciação 
+
+const calcIMC = pesoEmKg / Math.pow(altura, 2);
 const IMC = calcIMC
 
 if(IMC < 18.5){
