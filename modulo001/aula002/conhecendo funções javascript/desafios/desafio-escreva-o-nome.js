@@ -1,6 +1,6 @@
 function writeMyName (name){
-    name = 'Gabriel';
-    return `Meu nome é: ${name}`;
+   
+    return `Meu nome é ${name}`;
 }
 
 (function (){
