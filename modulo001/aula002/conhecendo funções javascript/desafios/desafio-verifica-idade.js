@@ -1,5 +1,5 @@
-function veficicaIdade(idade) {
-    if(idade > 18){
+function veficicaIdade(age) {
+    if(age >= 18){
         console.log('Pode tirar a habilitação!')
 
     }else{
@@ -7,10 +7,34 @@ function veficicaIdade(idade) {
     }
 }
 
-function main() {
+function main(age) {
 
-    veficicaIdade(10)
+    veficicaIdade(age)
 
 }
 
-main()
+main(18)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
